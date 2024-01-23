@@ -1,0 +1,303 @@
+@font-face {
+  font-family: 'MessinaSans';
+  src: url('../webfonts/MessinaSans.eot');
+  src: url('../webfonts/MessinaSans.eot') format('embedded-opentype'), url('../webfonts/MessinaSans.woff') format('woff'), url('../webfonts/MessinaSans.eot') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body, ul, li, p, a, label, input, div {
+  font-family: 'MessinaSans',sans-serif;
+  font-size: 18px ;
+  font-weight: 300 ;
+}
+.h1 {
+  font-family: 'MessinaSans',sans-serif;
+  font-size: 48px ;
+  font-weight: 600 ;
+}
+.h2 {
+  font-family: 'MessinaSans',sans-serif;
+  font-size: 36px ;
+  font-weight: 600;
+  border-top: 5px solid #b71c20;
+  padding-top: 10px;
+}
+.h3 {
+  font-family: 'MessinaSans',sans-serif;
+  font-size: 26px ;
+  font-weight: 600;
+}
+.pagination .page-link:hover {color: #000;}
+.pagination .page-link:hover, .pagination .page-link.active {
+  background-color: #69bb7e;
+  color: #fff;
+}
+/* Nav */
+#templatemo_nav_top { min-height: 30px;}
+#templatemo_nav_top * { font-size: .9em ;color: #212934;}
+/* #templatemo_main_nav a { color: #212934;} */
+#templatemo_main_nav a:hover { color: #B71A23;}
+#templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
+
+/* Hero Carousel */
+#template-mo-zay-hero-carousel { 
+  /* background-image: url("../img/banner-01.jpg"); */
+  background: #efefef ;
+}
+/* Carousel Hero */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #B71A23;
+}
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: #B71A23 ;
+  font-size: 2.8em ;
+}
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+  font-size: .5em ;
+  color: #000 ;
+}
+/* Footer */
+#tempaltemo_footer a { color: #dcdde1;}
+#tempaltemo_footer a:hover { color: #B71A23;}
+#tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: .5s;
+}
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+#tempaltemo_footer .border-light { border-color: #2d343f ;}
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)*/
+.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+  font-size: 12px ;
+}
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 { font-size: 1em ;}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {max-width: 450px;}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {max-width:100%;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem ;}
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px ;}
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+.banner-bg-01 {
+  background-image: url("../img/city.PNG");
+  background-size: cover;
+  /* background-position: 0px -85px; */
+  background-position: top;
+}
+.banner-bg-02 {
+  background-image: url("../img/bridge.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.banner-bg-03 {
+  background-image: url("../img/ships.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner-bg-04 {
+  background-image: url("../img/momument.jpeg");
+  background-size: cover;
+  /* background-position: center; */
+}
+.banner-bg-05 {
+  background-image: url("../img/UOA.jpg");
+  background-size: cover;
+  /* background-position: top; */
+}
+.banner-bg-06 {
+  background-image: url("../img/maori.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.banner-title {
+  font-size:66px;
+  color:#B71A23;
+  font-weight:  600;
+  text-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  line-height: .9;
+}
+.banner-title-white {
+  font-size:52px;
+  color:#fff;
+  font-weight: 600;
+  text-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  line-height: .9;
+  line-height: .9;
+}
+.font-pricolor {
+  color: var(--bs-primary);
+}
+
+.sponsors-title {
+  font-size: 30px;
+  color: #4e4e4e;
+  font-weight: 600;
+}
+.btn-scroll-top.show {
+  bottom: 1.25rem;
+  opacity: 1;
+}
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}
+.btn-scroll-top {
+  --si-btn-scroll-top-size: 2.75rem;
+  --si-btn-scroll-top-border-radius: 50%;
+  --si-btn-scroll-top-color: #fff;
+  --si-btn-scroll-top-hover-color: #fff;
+  --si-btn-scroll-top-bg: rgba(11, 15, 25, 0.2);
+  --si-btn-scroll-top-hover-bg: rgba(11, 15, 25, 0.4);
+  --si-btn-scroll-top-icon-size: 1.5rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 1.25rem;
+  bottom: -4.125rem;
+  width: var(--si-btn-scroll-top-size);
+  height: var(--si-btn-scroll-top-size);
+  transition: bottom 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55),opacity .3s,background-color .25s ease-in-out;
+  border-radius: var(--si-btn-scroll-top-border-radius);
+  background-color: var(--si-btn-scroll-top-bg);
+  color: var(--si-btn-scroll-top-color);
+  text-decoration: none;
+  opacity: 0;
+  z-index: 1030;
+}
+.btn-scroll-top .btn-scroll-top-tooltip {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  transition: opacity .25s ease-in-out,visibility .25s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.videobox {
+  position: relative;
+  width: 60%;
+  height: 0;
+  left: 20%;
+  padding-bottom: 56.25%;
+}
+
+.videobox iframe {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 100%;
+  height: 60%;
+}
+
+.indent-title-5{
+  text-indent: -5em;
+  margin-left: 5em;
+}
+
+#registration-fee table {
+  background-color: white;
+  border-collapse:collapse
+}
+
+#registration-fee th {
+  background-color: #dddddd;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#registration-fee th,td {
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+td#registration-timing {
+  background-color: #dddddd;
+  text-align: center;
+}
+
+td#registration-price {
+  text-align: right;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 2.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.custom-control {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+}
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.custom-control-input {
+  position: absolute;
+  z-index: -1;
+  /* opacity: 0; */
+}
+.custom-control-label {
+  position: relative;
+  margin-bottom: 0;
+  vertical-align: top;
+}
+
